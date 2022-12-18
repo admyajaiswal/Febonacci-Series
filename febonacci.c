@@ -1,8 +1,7 @@
 //display the first n numbers of febonacci series
 #include <stdio.h>
 #include <math.h>
-int main()
-{
+int main() {
       int f1,f2,f3,n,i=2,s=1;
       f1=0;
       f2=1;
@@ -10,8 +9,7 @@ int main()
       scanf("%d",&n);
       printf("\nFibonacci Series Upto %d Terms:\n\n",n);
       printf("%d, %d",f1,f2);
-      while(i<n)
-      {
+      while(i<n) {
             f3=f1+f2;
             printf(", %d",f3);
             f1=f2;
